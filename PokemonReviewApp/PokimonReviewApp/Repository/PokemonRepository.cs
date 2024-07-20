@@ -58,6 +58,7 @@ namespace PokimonReviewApp.Repository
 
         public List<Pokemon> GetPokemons()
         {
+            //var proc= _dataContext.
             return _dataContext.Pokemons.ToList();
         }
 

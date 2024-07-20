@@ -14,7 +14,7 @@ namespace PokimonReviewApp.Controllers
         private readonly ICountryRepository _countryRepository;
         public OwnerController(IOwnerRepository ownerRepository, ICountryRepository countryRepository)
         {
-               _ownerRepository= ownerRepository;   
+            _ownerRepository= ownerRepository;   
             _countryRepository= countryRepository;
         }
 
